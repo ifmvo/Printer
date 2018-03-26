@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cn.ifmvo.printer.R;
+import com.ifmvo.printer.R;
+
 
 public class CustomToast extends Toast {
     public TextView tvText;
@@ -17,7 +18,7 @@ public class CustomToast extends Toast {
         View view = LayoutInflater.from(context).inflate(R.layout.custom_toast, null);
         setView(view);
         setGravity(Gravity.CENTER_HORIZONTAL, 0, 0);
-        tvText = (TextView) view.findViewById(R.id.tvText);
+        tvText = view.findViewById(R.id.tvText);
     }
 
     public static CustomToast makeText(Context context, CharSequence text, int duration) {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MatthewKit.iml" filepath="$PROJECT_DIR$/MatthewKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matthew_Printer.iml" filepath="$PROJECT_DIR$/Matthew_Printer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/matthew_printer/matthew_printer.iml" filepath="$PROJECT_DIR$/matthew_printer/matthew_printer.iml" />
     </modules>
